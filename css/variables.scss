@@ -35,32 +35,8 @@ p {
     font-size: 25px!important;
 }
 
-.font-size-24px {
-    font-size: 24px!important;
-}
-
-.font-size-20px {
-    font-size: 20px!important;
-}
-
-.font-size-18px {
-    font-size: 18px!important;
-}
-
-.font-size-16px {
-    font-size: 16px!important;
-}
-
-.text-white {
-    color: $white;
-}
-
 .text-secondary {
     color: $darkgrey!important;
-}
-
-.text-brown {
-    color: $saddlebrown;
 }
 
 .bg-light {
@@ -73,10 +49,6 @@ p {
 
 .bg-primary {
     background-color: $aliceblue!important;
-}
-
-.rounded-pill {
-    border-radius: 40px!important;
 }
 
 .border-end {
@@ -95,14 +67,6 @@ p {
     padding-top: 294px;
 }
 
-.pb-40px {
-    padding-bottom: 40px;
-}
-
-.pb-63px {
-    padding-bottom: 63px;
-}
-
 .pb-70px {
     padding-bottom: 70px;
 }
@@ -115,18 +79,6 @@ p {
     padding-bottom: 163px;
 }
 
-.pb-200px {
-    padding-bottom: 200px;
-}
-
 .py-100px {
     padding: 100px 0;
-}
-
-.p-60px {
-    padding: 60px;
-}
-
-.mb-90px {
-    margin-bottom: 90px;
 }

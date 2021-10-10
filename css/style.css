@@ -27,32 +27,8 @@ p {
   font-size: 25px !important;
 }
 
-.font-size-24px {
-  font-size: 24px !important;
-}
-
-.font-size-20px {
-  font-size: 20px !important;
-}
-
-.font-size-18px {
-  font-size: 18px !important;
-}
-
-.font-size-16px {
-  font-size: 16px !important;
-}
-
-.text-white {
-  color: #FFFFFF;
-}
-
 .text-secondary {
   color: #585858 !important;
-}
-
-.text-brown {
-  color: #A96500;
 }
 
 .bg-light {
@@ -65,10 +41,6 @@ p {
 
 .bg-primary {
   background-color: #F6F7FD !important;
-}
-
-.rounded-pill {
-  border-radius: 40px !important;
 }
 
 .border-end {
@@ -87,14 +59,6 @@ p {
   padding-top: 294px;
 }
 
-.pb-40px {
-  padding-bottom: 40px;
-}
-
-.pb-63px {
-  padding-bottom: 63px;
-}
-
 .pb-70px {
   padding-bottom: 70px;
 }
@@ -107,20 +71,8 @@ p {
   padding-bottom: 163px;
 }
 
-.pb-200px {
-  padding-bottom: 200px;
-}
-
 .py-100px {
   padding: 100px 0;
-}
-
-.p-60px {
-  padding: 60px;
-}
-
-.mb-90px {
-  margin-bottom: 90px;
 }
 
 body {
@@ -144,18 +96,6 @@ a {
 }
 .navbar .navbar-brand-img {
   height: 30px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 25px;
-  color: #000000;
-}
-
-.main-description {
-  font-weight: 300;
-  font-size: 20px;
-  color: #000000;
 }
 
 .btn-primary {
@@ -189,6 +129,7 @@ a {
   font-family: "Merriweather";
   font-weight: 300;
   font-size: 16px;
+  color: #A96500;
   line-height: initial;
   padding: 6px 8px;
   border-radius: 5px;
@@ -410,14 +351,6 @@ input {
     font-size: 18px !important;
   }
 
-  .main-description {
-    font-size: 16px !important;
-  }
-
-  .subtitle {
-    font-size: 16px !important;
-  }
-
   .shadow-bg {
     border: none;
   }
@@ -442,17 +375,8 @@ input {
     margin-right: 20px;
   }
 
-  .testimonials .owl-carousel .item {
-    max-width: 320px;
-    width: 320px;
-  }
-
   .list-items li {
     font-size: 16px !important;
-  }
-
-  .img-style {
-    width: 60px;
   }
 
   .block-bg {
@@ -480,14 +404,6 @@ input {
     padding-top: 126px;
   }
 
-  .pb-40px {
-    padding-bottom: 30px;
-  }
-
-  .pb-63px {
-    padding-bottom: 15px;
-  }
-
   .pb-90px {
     padding-bottom: 50px;
   }
@@ -500,28 +416,8 @@ input {
     padding-bottom: 57px;
   }
 
-  .pb-200px {
-    padding-bottom: 60px;
-  }
-
-  .p-60px {
-    padding: 30px;
-  }
-
-  .font-size-24px {
-    font-size: 22px !important;
-  }
-
-  .font-size-20px {
-    font-size: 14px !important;
-  }
-
   .badge {
     font-size: 12px !important;
-  }
-
-  .rounded-pill {
-    border-radius: 15px !important;
   }
 
   .navbar {
@@ -552,10 +448,6 @@ input {
     height: 10px;
   }
 
-  .testimonials {
-    background-color: #F6F7FD !important;
-  }
-
   .footer {
     background-color: #FFFFFF !important;
   }
@@ -563,10 +455,6 @@ input {
 @media (min-width: 1200px) and (max-width: 1899px) {
   h1 {
     font-size: 56px !important;
-  }
-
-  .pb-135px {
-    padding-bottom: 100px;
   }
 }
 @media (min-width: 1900px) {

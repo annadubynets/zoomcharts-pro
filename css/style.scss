@@ -25,18 +25,6 @@
         }
     }
     
-    .subtitle {
-        font-weight: 300;
-        font-size: 25px;
-        color: $black;
-    }
-    
-    .main-description {
-        font-weight: 300;
-        font-size: 20px;
-        color: $black;
-    }
-    
     .btn-primary {
         font-family: 'Roboto';
         font-weight: 400;
@@ -68,6 +56,7 @@
         font-family: 'Merriweather';
         font-weight: 300;
         font-size: 16px;
+        color: $saddlebrown;
         line-height: initial;
         padding: 6px 8px;
         border-radius: 5px;
@@ -291,12 +280,6 @@
         .font-size-25px {
             font-size: 18px!important;
         }
-        .main-description {
-            font-size: 16px!important;
-        }
-        .subtitle {
-            font-size: 16px!important;
-        }
         .shadow-bg {
             border: none;
             iframe {
@@ -324,21 +307,10 @@
                 }
             }
         }
-        .testimonials {
-            .owl-carousel {
-                .item {
-                    max-width: 320px;
-                    width: 320px;
-                }
-            }
-        }
         .list-items {
             li {
                 font-size: 16px!important;
             }
-        }
-        .img-style {
-            width: 60px;
         }
         .block-bg {
             background-color: $white;
@@ -362,12 +334,6 @@
         .pt-294px {
             padding-top: 126px;
         }
-        .pb-40px {
-            padding-bottom: 30px;
-        }
-        .pb-63px {
-            padding-bottom: 15px;
-        }
         .pb-90px {
             padding-bottom: 50px;
         }
@@ -377,23 +343,8 @@
         .pb-163px {
             padding-bottom: 57px;
         }
-        .pb-200px {
-            padding-bottom: 60px;
-        }
-        .p-60px {
-            padding: 30px;
-        }
-        .font-size-24px {
-            font-size: 22px!important;
-        }
-        .font-size-20px {
-            font-size: 14px!important;
-        }
         .badge {
             font-size: 12px!important;
-        }
-        .rounded-pill {
-            border-radius: 15px!important;
         }
         .navbar {
             padding: 20px 0;
@@ -423,9 +374,6 @@
                 }
             }
         }
-        .testimonials {
-            background-color: $aliceblue!important;
-        }
         .footer {
             background-color: $white!important;
         }
@@ -434,9 +382,6 @@
     @media (min-width: 1200px) and (max-width: 1899px) {
         h1 {
             font-size: 56px!important;
-        }
-        .pb-135px {
-            padding-bottom: 100px;
         }
     }
     

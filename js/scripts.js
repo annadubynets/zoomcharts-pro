@@ -44,21 +44,3 @@ if ($('.features .owl-carousel').length > 0) {
         }
     })
 }
-
-$(document).ready(function() {
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 50) {
-            $('.go-to-top').fadeIn();
-        } else {
-            $('.go-to-top').fadeOut();
-        }
-    });
-    // scroll body to 0px on click
-    $('.go-to-top').click(function() {
-        $('body,html').animate({
-            scrollTop: $('form.request-visuals-form').offset().top - 150,
-        }, 400);
-        $('form.request-visuals-form input').focus();
-        return false;
-    });
-});
