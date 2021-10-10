@@ -307,12 +307,44 @@ input {
   background-color: #000000;
 }
 .features .features-nav-container-desktop .owl-next {
-  background-color: transparent;
+  content: "";
   border: none;
+  background-color: transparent;
+  color: #000000;
+  font-size: 60px;
+  position: absolute;
+  top: -30px;
+  left: -50px;
 }
 .features .features-nav-container-desktop .owl-prev {
-  background-color: transparent;
+  content: "";
   border: none;
+  background-color: transparent;
+  color: #000000;
+  font-size: 60px;
+  position: absolute;
+  top: -30px;
+  right: -50px;
+}
+.features .features-nav-container-mobile .owl-next {
+  content: "";
+  color: #000000;
+  border: none;
+  background-color: transparent;
+  font-size: 60px;
+  position: absolute;
+  top: -15px;
+  left: -50px;
+}
+.features .features-nav-container-mobile .owl-prev {
+  content: "";
+  color: #000000;
+  border: none;
+  background-color: transparent;
+  font-size: 60px;
+  position: absolute;
+  top: -15px;
+  right: -50px;
 }
 
 .footer {

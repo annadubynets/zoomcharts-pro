@@ -188,12 +188,46 @@
         }
         .features-nav-container-desktop {
             .owl-next {
-                background-color: transparent;
+                content: "\e903";
                 border: none;
+                background-color: transparent;
+                color: #000000;
+                font-size: 60px;
+                position: absolute;
+                top: -30px;
+                left: -50px;
             }
             .owl-prev {
-                background-color: transparent;
+                content: "\e902";
                 border: none;
+                background-color: transparent;
+                color: #000000;
+                font-size: 60px;
+                position: absolute;
+                top: -30px;
+                right: -50px;
+            }
+        }
+        .features-nav-container-mobile {
+            .owl-next {
+                content: "\e903";
+                color: #000000;
+                border: none;
+                background-color: transparent;
+                font-size: 60px;
+                position: absolute;
+                top: -15px;
+                left: -50px;
+            }
+            .owl-prev {
+                content: "\e902";
+                color: #000000;
+                border: none;
+                background-color: transparent;
+                font-size: 60px;
+                position: absolute;
+                top: -15px;
+                right: -50px;
             }
         }
     }
