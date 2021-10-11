@@ -29,6 +29,7 @@ if ($('.features .owl-carousel').length > 0) {
         loop: true,
         responsiveClass: true,
         autoplay: false,
+        autoHeight: true,
         dots: true,
         dotsContainer: ".features-dots-container",
         nav: true,
