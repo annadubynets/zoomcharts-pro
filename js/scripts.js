@@ -28,18 +28,17 @@ if ($('.features .owl-carousel').length > 0) {
     $('.features .owl-carousel').owlCarousel({
         loop: true,
         responsiveClass: true,
-        autoplay: true,
+        autoplay: false,
         dots: true,
         dotsContainer: ".features-dots-container",
         nav: true,
+        navContainer: ".features-nav-container-desktop",
         responsive: {
             0: {
-                items: 1,
-                navContainer: ".features-nav-container-mobile"
+                items: 1
             },
             1200: {
-                items: 1,
-                navContainer: ".features-nav-container-desktop"
+                items: 1
             }
         }
     })
