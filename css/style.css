@@ -169,6 +169,7 @@ input {
 
 .list-items {
   padding-left: 4em;
+  margin-bottom: 0;
 }
 .list-items li {
   font-weight: 300;
@@ -176,6 +177,9 @@ input {
   color: #000000;
   list-style-type: none;
   padding-bottom: 20px;
+}
+.list-items li:last-child {
+  padding-bottom: 0;
 }
 .list-items li::before {
   content: "";
