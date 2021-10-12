@@ -415,7 +415,7 @@ input {
   }
 
   .pb-90px {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
 
   .pb-70px {
@@ -452,6 +452,7 @@ input {
 
   .list-items {
     padding-left: 54px;
+    padding-right: 16px;
   }
   .list-items li::before {
     width: 10px;
