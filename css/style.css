@@ -387,6 +387,14 @@ input {
     border-radius: 21px;
     padding: 25px 20px;
   }
+
+  .features {
+    padding: 49px 0;
+  }
+
+  .py-100px {
+    padding: 60px 0;
+  }
 }
 @media (max-width: 1200px) {
   .btn-primary {
